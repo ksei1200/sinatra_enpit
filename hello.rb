@@ -5,6 +5,6 @@ get '/' do
 end
 
 get '/' do
-  pass if Time.now > time_for('Dec 23, 2012')
+  pass if Time.now > time_for('Dec 23, 2018')
   "まだ時間がある"
 end
