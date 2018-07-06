@@ -1,7 +1,10 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
-  " This is Team HKKM Home Page "
-
+  'Hello world!'
 end
+
+get '/index' do
+  erb :index
+end
+
