@@ -20,13 +20,11 @@ get '/:user/help' do
   erb :'/user/help'
 end
 
-require 'sinatra'
+#get '/hi' do
+#  "Hello World!"
+#end
 
-get '/hi' do
-  "Hello World!"
-end
-
-get '/' do
-  pass if Time.now > time_for('Dec 23, 2018')
-  "まだ時間がある"
-end
+#get '/' do
+#  pass if Time.now > time_for('Dec 23, 2018')
+#  "まだ時間がある"
+#end
